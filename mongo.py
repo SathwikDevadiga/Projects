@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-client = MongoClient("mongodb+srv://devadigasathwik81544:test1234@cluster0.82k5wbu.mongodb.net/")
+client = MongoClient("<YOUR_MONGODB_URI>")
 db = client.scrapy
 posts = db.test_collection
 
